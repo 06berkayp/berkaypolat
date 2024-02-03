@@ -7,37 +7,36 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="w-[90%] h-full m-auto mt-8 mb-5">
-      <div className="size-[230px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[350px]">
+    <div className="w-[90%] h-full m-auto mt-8 mb-5 sm:w-[75%]">
+      <div className="size-[230px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px]">
         <img
-          className="size-[230px] border-[2px] object-cover xxs:size-[260px] xs:size-[300px] sm:size-[350px]"
-          src="../src/assets/images/me.jpeg"
+          className="size-[230px] border-[2px] object-cover xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px]"
+          src={"./src/assets/images/me.jpeg"}
         />
       </div>
-      <div className="mt-4 w-full h-[40px] text-white flex gap-3 justify-center items-center">
-        <FaInstagram className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaXTwitter className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaLinkedin className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaSpotify className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
+      <div className="mt-4 w-full h-[40px] text-white flex gap-3 justify-center items-center md:mt-[30px]">
+        <FaInstagram className="size-[34px] xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] text-yellow-400" />
+        <FaXTwitter className="size-[34px] xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] text-yellow-400" />
+        <FaLinkedin className="size-[34px] xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] text-yellow-400" />
+        <FaSpotify className="size-[34px] xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] text-yellow-400" />
       </div>
-      <div className="mt-[30px] w-full relative">
-        <div className="flex flex-col">
-          <h1 className="text-[60px] xs:text-[75px] font-extrabold text-[#fdcd02]">
-            BERKAY
-          </h1>
-          <div className="flex content-end justify-end">
-            <h1 className="text-[60px] xs:text-[75px] font-extrabold text-[#fdcd02]">
-              POLAT
-            </h1>
-          </div>
-          <h1 className="font-bold absolute left-4 top-[280px] text-[12px] text-[#fdcd02] xs:mt-[40px] xs:text-[16px] pb-[30px]">
-            5 may 2003
-          </h1>
-          <MdKeyboardArrowDown className="text-[80px] xxs:mt-[18px] xs:mt-[45px] xs:text-[96px] flex absolute justify-center items-center w-full top-[170px] text-[#fff]" />
-          <h1 className="font-bold italic absolute right-4 top-[280px] text-[#fdcd02] text-[12px] xs:mt-[40px] xs:text-[16px] pb-[30px]">
-            developer.
-          </h1>
-        </div>
+
+      <div className="flex flex-col mt-[30px] w-full relative">
+        <h1 className="text-[60px] xs:text-[75px] sm:text-[90px] md:text-[100px] font-extrabold text-[#fdcd02] ">
+          BERKAY
+        </h1>
+
+        <h1 className="text-[60px] xs:text-[75px] md:text-[100px] font-extrabold text-[#fdcd02] sm:text-[90px] flex content-end justify-end">
+          POLAT
+        </h1>
+
+        <h1 className="font-bold absolute left-4 top-[280px] text-[12px] text-[#fdcd02] xs:mt-[40px] xs:text-[16px] md:mt-[60px] pb-[30px]">
+          5 may 2003
+        </h1>
+        <MdKeyboardArrowDown className="text-[80px] xxs:mt-[18px] xs:mt-[45px] sm:mt-[68px] md:mt-[95px] xs:text-[96px] sm:text-[110px] flex absolute justify-center items-center w-full top-[170px] text-[#fff]" />
+        <h1 className="font-bold italic absolute right-4 top-[280px] text-[#fdcd02] text-[12px] xs:mt-[40px] xs:text-[16px] md:mt-[60px] pb-[30px]">
+          developer.
+        </h1>
       </div>
     </div>
   );
