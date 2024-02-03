@@ -4,14 +4,14 @@ import Navbar from "@/components/navbar";
 
 function RootLayout() {
   return (
-    <div>
+    <>
       <nav>
         <Navbar />
       </nav>
       <main>
         <Outlet />
       </main>
-    </div>
+    </>
   );
 }
 

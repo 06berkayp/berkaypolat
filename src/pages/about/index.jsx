@@ -24,7 +24,7 @@ function About() {
           src="src/assets/images/baby.jpg"
         />
       </div>
-      <div className="md:h-screen  lg:flex lg:flex-col lg:w-[500px] lg:gap-5 xl:w-[650px] xl:h-[500px] xl:-ml-[50px]">
+      <div className="md:h-full  lg:flex lg:flex-col lg:w-[500px] lg:gap-5 xl:w-[650px] xl:h-[500px] xl:-ml-[50px]">
         <div className="text-[48px] flex justify-center items-center h-[50px] w-full mt-3 xs:mt-10 sm:mt-36 md:mt-[250px] lg:mt-[0px] lg:justify-start">
           {/* yellow title sec. */}
           <h1 className="text-[#fdcd02] font-extrabold sm:text-[56px] md:text-[60px]">
