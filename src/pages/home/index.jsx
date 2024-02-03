@@ -7,7 +7,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="w-[90%] h-full m-auto mt-8 mb-5 sm:w-[75%] md:w-[65%] lg:flex lg:flex-row-reverse lg:w-[90%] lg:gap-12 lg:justify-center">
+    <div className="w-[90%] h-full m-auto mt-8 mb-5 sm:w-[75%] md:w-[65%] lg:flex lg:flex-row-reverse lg:w-[90%] lg:gap-12 lg:justify-center xl:mt-[50px]">
       <div className="md:flex md:flex-col lg:flex lg:flex-col lg:items-center lg:justify-center lg:mt-[50px]">
         <div className="size-[230px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px] lg:size-[350px] ">
           <img
