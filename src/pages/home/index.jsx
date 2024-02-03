@@ -20,7 +20,7 @@ function Home() {
         <FaLinkedin className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
         <FaSpotify className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
       </div>
-      <div className="mt-[30px] w-full relative ">
+      <div className="mt-[30px] w-full relative">
         <div className="flex flex-col">
           <h1 className="text-[60px] xs:text-[75px] font-extrabold text-[#fdcd02]">
             BERKAY
@@ -30,11 +30,11 @@ function Home() {
               POLAT
             </h1>
           </div>
-          <h1 className="font-bold absolute left-4 top-[280px] text-[12px] text-[#fdcd02] xs:mt-[40px] xs:text-[16px]">
+          <h1 className="font-bold absolute left-4 top-[280px] text-[12px] text-[#fdcd02] xs:mt-[40px] xs:text-[16px] pb-[30px]">
             5 may 2003
           </h1>
           <MdKeyboardArrowDown className="text-[80px] xxs:mt-[18px] xs:mt-[45px] xs:text-[96px] flex absolute justify-center items-center w-full top-[170px] text-[#fff]" />
-          <h1 className="font-bold italic absolute right-4 top-[280px] text-[#fdcd02] text-[12px] xs:mt-[40px] xs:text-[16px]">
+          <h1 className="font-bold italic absolute right-4 top-[280px] text-[#fdcd02] text-[12px] xs:mt-[40px] xs:text-[16px] pb-[30px]">
             developer.
           </h1>
         </div>

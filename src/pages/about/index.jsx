@@ -24,27 +24,27 @@ function About() {
           src="src/assets/images/baby.jpg"
         />
       </div>
-      <div className="md:h-full  lg:flex lg:flex-col lg:w-[500px] lg:gap-5 xl:w-[650px] xl:h-[500px] xl:-ml-[50px]">
+      <div className="lg:flex lg:flex-col lg:w-[500px] lg:gap-5 xl:w-[650px] xl:h-[500px] xl:-ml-[50px]">
         <div className="text-[48px] flex justify-center items-center h-[50px] w-full mt-3 xs:mt-10 sm:mt-36 md:mt-[250px] lg:mt-[0px] lg:justify-start">
           {/* yellow title sec. */}
           <h1 className="text-[#fdcd02] font-extrabold sm:text-[56px] md:text-[60px]">
             merhaba!
           </h1>
         </div>
-        <div className="mt-4 xs:h-full">
+        <div className="mt-4">
           <p className="text-justify text-[14px] font-medium text-[#f0e6e6] italic xs:text-[16px] sm:text-[20px] md:text-[22px] lg:text-[20px] xl:w-[90%] xl:text-[21px]">
             Ben Berkay. Ankara’da doğdum ve yaşıyorum. Başkent Üniversitesi
             Yönetim Bilişim Sistemleri öğrencisiyim. Web geliştirme alanında
             kendimi sürekli geliştirerek her geçen gün dünden daha iyi olmaya
             çalışıyorum.
           </p>
-          <div className="mt-4 xs:mt-6 xs:h-[230px]">
+          <div className="mt-4 xs:mt-6">
             <div className="w-[18%]">
               <h1 className="text-[#fdcd02] font-bold italic xs:text-[18px] sm:text-[20px] md:text-[22px] xl:text-[26px]">
                 SKILLS
               </h1>
             </div>
-            <div className="flex gap-3 flex-wrap *:text-[30px] mt-2 xs:*:text-[32px] sm:*:text-[40px] sm:gap-4 md:*:text-[45px] lg:*:text-[36px] xl:*:text-[45px]">
+            <div className="flex gap-3 flex-wrap *:text-[30px] mt-2 xs:*:text-[32px] sm:*:text-[40px] sm:gap-4 md:*:text-[45px] lg:*:text-[36px] xl:*:text-[45px] pb-[30px]">
               <FaHtml5 className="text-[#E34F26]" />
               <FaCss3Alt className="text-[#1572B6]" />
               <IoLogoJavascript className="text-[#F7DF1E]" />
