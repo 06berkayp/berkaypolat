@@ -18,7 +18,7 @@ function About() {
   return (
     <div className="w-[90%] h-full m-auto mt-8 mb-5 lg:flex lg:gap-6 lg:mt-[100px] xl:w-[95%] xl:gap-6 ">
       <div className="h-[220px] w-full xs:flex xs:justify-center lg:flex-1 xl:justify-start">
-        {/* profile pic sec */}
+        {/* profile pic sec. */}
         <img
           className="h-[220px] w-full object-cover xs:h-[250px] sm:h-[350px] md:h-[450px] md:w-[80%] lg:w-[90%] "
           src="src/assets/images/baby.jpg"

@@ -7,18 +7,18 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="w-[90%] h-full m-auto mt-8 mb-5 ">
-      <div className="size-[200px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[350px]">
+    <div className="w-[90%] h-full m-auto mt-8 mb-5">
+      <div className="size-[230px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[350px]">
         <img
-          className="size-[200px] border-[2px] object-cover xxs:size-[260px] xs:size-[300px] sm:size-[350px]"
+          className="size-[230px] border-[2px] object-cover xxs:size-[260px] xs:size-[300px] sm:size-[350px]"
           src="../src/assets/images/me.jpeg"
         />
       </div>
       <div className="mt-4 w-full h-[40px] text-white flex gap-3 justify-center items-center">
-        <FaInstagram className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaXTwitter className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaLinkedin className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
-        <FaSpotify className="size-[30px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
+        <FaInstagram className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
+        <FaXTwitter className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
+        <FaLinkedin className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
+        <FaSpotify className="size-[34px] xxs:size-[34px] xs:size-[40px] text-yellow-400" />
       </div>
       <div className="mt-[30px] w-full relative">
         <div className="flex flex-col">
