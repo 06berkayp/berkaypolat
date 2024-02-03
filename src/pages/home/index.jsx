@@ -12,7 +12,7 @@ function Home() {
         <div className="size-[230px] m-auto xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px] lg:size-[370px] xl:size-[430px]">
           <img
             className="size-[230px] border-[2px] object-cover xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px] lg:size-[370px] xl:size-[430px]"
-            src="src/assets/images/me.jpeg"
+            src="/assets/images/me.jpeg"
           />
         </div>
         <div className="mt-4 w-full h-[40px] text-white flex gap-3 justify-center items-center md:mt-[30px]">
