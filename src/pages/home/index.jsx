@@ -7,7 +7,7 @@ import Container from '@/components/container'
 
 function Home() {
     return (
-        <Container as='main'>
+        <Container as='main' className='h-[1000px]'>
             <div className='md:flex md:flex-col lg:mt-[50px] lg:flex lg:flex-col lg:items-center lg:justify-center xl:mt-[30px]'>
                 <div className='m-auto size-[230px] xxs:size-[260px] xs:size-[300px] sm:size-[340px] md:size-[400px] lg:size-[370px] xl:size-[430px]'>
                     <img
@@ -28,7 +28,7 @@ function Home() {
                     BERKAY
                 </h1>
 
-                <h1 className='flex content-end justify-end text-[60px] font-extrabold text-[#fdcd02] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:-mt-[20px] xl:text-[140px]'>
+                <h1 className='w-full content-end text-end text-[60px] font-extrabold text-[#fdcd02] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:-mt-[20px] xl:text-[140px]'>
                     POLAT
                 </h1>
 

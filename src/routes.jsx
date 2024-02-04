@@ -25,7 +25,7 @@ const routes = [
                 element: <About />,
             },
             {
-                path: '/projects',
+                path: 'projects',
                 element: <Projects />,
             },
             {
