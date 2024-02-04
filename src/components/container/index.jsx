@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import { cn } from '@/lib/utils.js'
+import { cn } from '@/lib/utils'
 
 export default function Container({ children, as, className, ...props }) {
     const Component = as || 'div'
