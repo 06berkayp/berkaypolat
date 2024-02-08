@@ -16,17 +16,29 @@ import Container from '@/components/container'
 
 function About() {
     return (
+<<<<<<< HEAD
         <Container as='main' className='h-full'>
             <div className='h-[220px] w-full xs:flex xs:justify-center lg:flex-1 xl:justify-start'>
                 <img
                     alt='baby'
                     className='h-[220px] w-full object-cover xs:h-[250px] sm:h-[350px] md:h-[450px] md:w-full lg:w-[90%] '
+=======
+        <Container as='main'>
+            <div className='h-[220px] w-full xs:flex xs:justify-center lg:flex-1 xl:justify-start'>
+                <img
+                    alt='baby'
+                    className='h-[220px] w-full object-cover xs:h-[250px] sm:h-[350px] md:h-[450px] md:w-[80%] lg:w-[90%] '
+>>>>>>> 9d963a2902a92e076010e8806d834fae82c1d97b
                     src='/assets/images/baby.jpg'
                 />
             </div>
             <div className='lg:flex lg:w-[500px] lg:flex-col lg:gap-5 xl:-ml-[50px] xl:h-[500px] xl:w-[650px]'>
                 <div className='mt-3 flex w-full items-center justify-center text-[48px] xs:mt-10 sm:mt-36 md:mt-[250px] lg:mt-[0px] lg:justify-start'>
+<<<<<<< HEAD
                     <h1 className='my-4 font-extrabold text-[#fdcd02] sm:text-7xl md:text-[60px]'>merhaba!</h1>
+=======
+                    <h1 className='my-4 font-extrabold text-[#fdcd02] sm:text-7xl md:text-[60px]'>Merhaba!</h1>
+>>>>>>> 9d963a2902a92e076010e8806d834fae82c1d97b
                 </div>
                 <div className='mt-4'>
                     <p className='text-justify text-[14px] font-medium italic text-[#f0e6e6] xs:text-[16px] sm:text-[20px] md:text-[22px] lg:text-[20px] xl:w-[90%] xl:text-[21px]'>

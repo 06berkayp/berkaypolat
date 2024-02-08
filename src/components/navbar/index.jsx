@@ -2,8 +2,11 @@ import { cn } from '@/lib/utils.js'
 import React from 'react'
 import { useMenuStore } from '@/store/zustand/menu'
 import useListener from '@/hooks/useListener'
+<<<<<<< HEAD
 
 import { NavLink } from 'react-router-dom'
+=======
+>>>>>>> 9d963a2902a92e076010e8806d834fae82c1d97b
 
 /*
 eğer toggle menüsü kalın gelirse
@@ -27,12 +30,20 @@ function Navbar() {
     return (
         <div
             className={cn(
+<<<<<<< HEAD
                 'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-between gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-[90%]',
                 isOpen ? 'bg-black/60 backdrop-blur-xl' : 'z-[100] bg-transparent backdrop-blur-xl'
             )}
         >
             <h1 className='text-2xl font-bold text-white md:hidden'>Berkay</h1>
 
+=======
+                'container sticky left-0 right-0 top-0 mx-auto flex w-[90%] items-center justify-between gap-x-2 p-4 sm:w-[75%] md:w-[65%] lg:flex lg:w-[90%]',
+                isOpen ? 'bg-black/60 backdrop-blur-xl' : 'z-[100] bg-transparent backdrop-blur-xl'
+            )}
+        >
+            <h1 className='text-2xl font-bold text-white'>Berkay</h1>
+>>>>>>> 9d963a2902a92e076010e8806d834fae82c1d97b
             <button
                 className='flex size-12 flex-col items-center justify-center gap-y-2 md:hidden'
                 onClick={toggleMenu}
@@ -50,6 +61,7 @@ function Navbar() {
                     )}
                 />
             </button>
+<<<<<<< HEAD
 
             <div className='hidden w-full md:flex md:h-14 md:items-center md:justify-center'>
                 <ul
@@ -76,6 +88,13 @@ function Navbar() {
                     >
                         Projects
                     </NavLink>
+=======
+            <div className='hidden md:flex'>
+                <ul className={cn('gap-x-4 md:flex', isOpen ? 'flex' : 'hidden')}>
+                    <li className='text-white'>Home</li>
+                    <li className='text-white'>About</li>
+                    <li className='text-white'>Contact</li>
+>>>>>>> 9d963a2902a92e076010e8806d834fae82c1d97b
                 </ul>
             </div>
         </div>
