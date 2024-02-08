@@ -15,16 +15,16 @@ function Home() {
                         src='/assets/images/me.jpeg'
                     />
                 </div>
-                <div className='mt-4 flex h-full w-full items-center justify-center gap-3 text-white md:pt-7 xl:pt-1 *:xl:size-[50px] xxl:pt-2 *:xxl:size-[60px]'>
-                    <FaInstagram className='size-[34px] text-yellow-400 xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaXTwitter className='size-[34px] text-yellow-400 xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaLinkedin className='size-[34px] text-yellow-400 xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaSpotify className='size-[34px] text-yellow-400 xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
+                <div className='mt-4 flex h-full w-full items-center justify-center gap-3 text-white *:cursor-pointer *:transition-all md:pt-7 lg:pt-2 *:lg:size-[50px] xl:pt-1 *:xl:size-[50px] xxl:pt-2 *:xxl:size-[60px]'>
+                    <FaInstagram className='size-[34px] rounded-lg text-yellow-400 hover:bg-gradient-to-r hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
+                    <FaXTwitter className='size-[34px] rounded-lg  text-yellow-400 hover:bg-[#000000] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
+                    <FaLinkedin className='size-[34px] rounded-lg text-yellow-400 hover:bg-[#0A66C2] hover:p-1 hover:text-white  xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
+                    <FaSpotify className='size-[34px] rounded-lg text-yellow-400 hover:bg-[#1DB954] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
                 </div>
             </div>
 
-            <div className=' relative mt-[30px] flex w-full flex-col xl:w-[60%] xl:pt-5 xxl:pt-1'>
-                <h1 className='text-[60px] font-extrabold text-[#fdcd02] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:text-[130px] xxl:text-[16"0px]'>
+            <div className=' relative mt-[30px] flex w-full flex-col xl:w-[60%] xl:pt-5 xxl:w-[60%] xxl:pt-1'>
+                <h1 className='text-[60px] font-extrabold text-[#fdcd02] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:text-[130px] xxl:text-[160px]'>
                     BERKAY
                 </h1>
 

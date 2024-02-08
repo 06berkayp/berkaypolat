@@ -27,7 +27,7 @@ function Navbar() {
     return (
         <div
             className={cn(
-                'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-between gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-[90%]',
+                'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-between gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-full',
                 isOpen ? 'bg-black/60 backdrop-blur-xl' : 'z-[100] bg-transparent backdrop-blur-xl'
             )}
         >
@@ -60,19 +60,19 @@ function Navbar() {
                 >
                     <NavLink
                         to='/'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-5 py-3' : ' hover:bg-red-400')}
+                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-5 py-3' : ' hover:bg-[#edc960]')}
                     >
                         Home
                     </NavLink>
                     <NavLink
                         to='/about'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-red-400')}
+                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-[#edc960]')}
                     >
                         About
                     </NavLink>
                     <NavLink
                         to='/projects'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-red-400')}
+                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-[#edc960]')}
                     >
                         Projects
                     </NavLink>
