@@ -6,7 +6,7 @@ export default function Container({ children, as: Component = 'div', className, 
         <Component
             {...props}
             className={cn(
-                'mx-auto h-[calc(100dvh-80px)] w-[90%] p-4 sm:w-[75%] md:w-[65%] lg:flex lg:w-[90%] lg:flex-row-reverse lg:justify-center lg:gap-20',
+                'mx-auto h-[calc(100dvh-80px)] w-[90%] p-4 sm:w-[75%] md:w-[65%] lg:flex lg:w-[90%] lg:flex-row-reverse lg:justify-center lg:gap-12 xl:w-[90%] xl:gap-24',
                 className
             )}
         >
