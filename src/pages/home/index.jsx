@@ -4,6 +4,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 import { FaSpotify } from 'react-icons/fa'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import Container from '@/components/container'
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -15,11 +16,19 @@ function Home() {
                         src='/assets/images/me.jpeg'
                     />
                 </div>
-                <div className='mt-4 flex h-full w-full items-center justify-center gap-3 text-white *:cursor-pointer *:transition-all md:pt-7 lg:pt-2 *:lg:size-[50px] xl:pt-1 *:xl:size-[50px] xxl:pt-2 *:xxl:size-[60px]'>
-                    <FaInstagram className='size-[34px] rounded-lg text-yellow-400 hover:bg-gradient-to-r hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaXTwitter className='size-[34px] rounded-lg  text-yellow-400 hover:bg-[#000000] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaLinkedin className='size-[34px] rounded-lg text-yellow-400 hover:bg-[#0A66C2] hover:p-1 hover:text-white  xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
-                    <FaSpotify className='size-[34px] rounded-lg text-yellow-400 hover:bg-[#1DB954] hover:p-1 hover:text-white xxs:size-[34px] xs:size-[40px] sm:size-[45px] md:size-[50px] lg:size-[45px]' />
+                <div className='mt-4 flex h-full w-full items-center justify-center gap-3 text-white *:cursor-pointer md:pt-2 lg:pt-2 *:lg:size-[50px] xl:pt-1 *:xl:size-[50px] xxl:pt-2 *:xxl:size-[60px]'>
+                    <Link to='https://www.instagram.com/06berkayp/'>
+                        <FaInstagram className='size-[34px] rounded-lg text-yellow-400 transition-all hover:bg-gradient-to-r hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:p-1 hover:text-white xxs:size-[37px] xs:size-[45px] sm:size-[50px] md:size-[50px] lg:size-[45px] xxl:size-[55px]' />
+                    </Link>
+                    <Link to='https://twitter.com/berkaypolat06'>
+                        <FaXTwitter className='size-[34px] rounded-lg text-yellow-400  transition-all hover:bg-[#000000] hover:p-1 hover:text-white xxs:size-[37px] xs:size-[45px] sm:size-[50px] md:size-[50px] lg:size-[45px] xxl:size-[55px]' />
+                    </Link>
+                    <Link to='/'>
+                        <FaLinkedin className='size-[34px] rounded-lg text-yellow-400 transition-all hover:bg-[#0A66C2] hover:p-1 hover:text-white  xxs:size-[37px] xs:size-[45px] sm:size-[50px] md:size-[50px] lg:size-[45px] xxl:size-[55px]' />
+                    </Link>
+                    <Link to='https://open.spotify.com/user/brkyplt'>
+                        <FaSpotify className='size-[34px] rounded-lg text-yellow-400 transition-all hover:bg-[#1DB954] hover:p-1 hover:text-white xxs:size-[37px] xs:size-[45px] sm:size-[50px] md:size-[50px] lg:size-[45px] xxl:size-[55px]' />
+                    </Link>
                 </div>
             </div>
 
