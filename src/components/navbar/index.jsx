@@ -60,19 +60,19 @@ function Navbar() {
                 >
                     <NavLink
                         to='/'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-5 py-3' : ' hover:bg-[#edc960]')}
+                        className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
                         Home
                     </NavLink>
                     <NavLink
                         to='/about'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-[#edc960]')}
+                        className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
                         About
                     </NavLink>
                     <NavLink
                         to='/projects'
-                        className={({ isActive }) => (isActive ? 'bg-[#fdcd02] px-3 ' : 'hover:bg-[#edc960]')}
+                        className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
                         Projects
                     </NavLink>

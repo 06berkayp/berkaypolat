@@ -16,7 +16,7 @@ import Container from '@/components/container'
 
 function About() {
     return (
-        <Container as='main' className='h-full lg:flex lg:flex-row lg:pt-7 xxl:pt-11'>
+        <Container as='main' className='h-full lg:flex lg:flex-row lg:pt-7 xxl:pb-12 xxl:pt-11'>
             <div className='h-[220px] w-full xs:flex xs:justify-center lg:flex-1 xl:justify-start xl:pt-4 xxl:h-[524px]'>
                 <img
                     alt='baby'
@@ -38,7 +38,7 @@ function About() {
                     </p>
                     <div className='mt-4 xs:mt-6'>
                         <div className='w-[18%]'>
-                            <h1 className='font-bold italic text-[#fdcd02] xs:text-[18px] sm:text-[20px] md:text-[22px] xl:text-[26px]'>
+                            <h1 className='font-bold italic text-[#d6ad60] xs:text-[18px] sm:text-[20px] md:text-[22px] xl:text-[26px]'>
                                 SKILLS
                             </h1>
                         </div>
