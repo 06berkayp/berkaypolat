@@ -28,11 +28,11 @@ function Navbar() {
         <div
             className={cn(
                 'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-end gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-full',
-                isOpen ? 'bg-black/60 backdrop-blur-xl' : 'z-[100] bg-transparent backdrop-blur-xl'
+                isOpen ? 'sticky right-0 top-0 z-[300]' : 'backdrop-blur-xxl right-0 top-0 z-[400] bg-transparent '
             )}
         >
             <button
-                className='flex size-12 flex-col items-center justify-center gap-y-2 md:hidden'
+                className='z-[300] flex size-12 flex-col items-center justify-center gap-y-2 md:hidden'
                 onClick={toggleMenu}
             >
                 <span
