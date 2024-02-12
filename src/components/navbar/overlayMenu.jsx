@@ -17,7 +17,7 @@ export default function OverlayMenu() {
                             className={({ isActive }) =>
                                 cn(
                                     'text-white transition-all duration-300',
-                                    isActive ? 'text-5xl font-bold text-yellow-400' : 'text-3xl'
+                                    isActive ? 'text-5xl font-bold text-[#d6ad60]' : 'text-3xl'
                                 )
                             }
                             onClick={closeMenu}

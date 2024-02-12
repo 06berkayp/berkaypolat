@@ -1,15 +1,15 @@
 export default [
     {
-        name: 'Home',
+        name: 'Anasayfa',
         to: '/',
         exact: true,
     },
     {
-        name: 'About',
+        name: 'Hakkımda',
         to: '/about',
     },
     {
-        name: 'Projects',
+        name: 'Projeler',
         to: '/projects',
     },
 ]

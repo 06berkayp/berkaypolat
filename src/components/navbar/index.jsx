@@ -27,12 +27,10 @@ function Navbar() {
     return (
         <div
             className={cn(
-                'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-between gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-full',
+                'sticky left-0 right-0 top-0 mx-auto flex w-full items-center justify-end gap-x-2 p-4 sm:w-full md:w-full md:justify-center lg:flex lg:w-full',
                 isOpen ? 'bg-black/60 backdrop-blur-xl' : 'z-[100] bg-transparent backdrop-blur-xl'
             )}
         >
-            <h1 className='text-2xl font-bold text-white md:hidden'>Berkay</h1>
-
             <button
                 className='flex size-12 flex-col items-center justify-center gap-y-2 md:hidden'
                 onClick={toggleMenu}
@@ -62,19 +60,19 @@ function Navbar() {
                         to='/'
                         className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
-                        Home
+                        Anasayfa
                     </NavLink>
                     <NavLink
                         to='/about'
                         className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
-                        About
+                        Hakkımda
                     </NavLink>
                     <NavLink
                         to='/projects'
                         className={({ isActive }) => (isActive ? 'bg-[#b68d40] px-5 py-3' : ' hover:bg-[#d6ad60]')}
                     >
-                        Projects
+                        Projeler
                     </NavLink>
                 </ul>
             </div>

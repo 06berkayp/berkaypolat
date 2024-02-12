@@ -38,8 +38,8 @@ function About() {
                     </p>
                     <div className='mt-4 xs:mt-6'>
                         <div className='w-[18%]'>
-                            <h1 className='font-bold italic text-[#d6ad60] xs:text-[18px] sm:text-[20px] md:text-[22px] xl:text-[26px]'>
-                                SKILLS
+                            <h1 className='font-bold italic text-[#d6ad60] xs:text-[18px] sm:text-[20px] md:text-[22px] xl:text-[22px] xxl:text-[26px]'>
+                                Beceriler
                             </h1>
                         </div>
                         <div className='mt-2 flex flex-wrap gap-3 pb-8 *:text-3xl xs:*:text-[32px] sm:gap-4 sm:*:text-[40px] md:*:text-[45px] lg:*:text-4xl xl:*:text-[40px] xxl:*:text-5xl'>
