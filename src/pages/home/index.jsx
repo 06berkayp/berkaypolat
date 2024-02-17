@@ -50,7 +50,7 @@ function Home() {
                 </h1>
 
                 <Marquee speed={80} className='flex w-full items-center overflow-hidden xxs:pt-4 xxl:pt-8'>
-                    <div className='flex items-center justify-center px-32'>
+                    <div className='flex items-center justify-center px-14'>
                         <div className='rounded-full bg-gradient-to-r from-violet-500 to-pink-500 xxs:h-2 xxs:w-2'></div>
                         <p className='hidden bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text px-3 font-extrabold text-transparent xxs:text-4xl sm:text-[40px] md:text-6xl lg:block lg:text-6xl xl:text-5xl xxl:text-6xl'>
                             Frontend
