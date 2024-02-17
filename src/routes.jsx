@@ -30,7 +30,7 @@ const routes = [
             },
             {
                 path: '*',
-                element: <div>404! not found.</div>,
+                element: <div className='flex items-center justify-center text-3xl text-white'>404! not found.</div>,
             },
         ],
     },

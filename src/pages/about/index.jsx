@@ -1,17 +1,6 @@
-import { FaHtml5 } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { IoLogoJavascript } from 'react-icons/io5'
-import { SiTailwindcss } from 'react-icons/si'
-import { FaReact } from 'react-icons/fa'
-import { SiRedux } from 'react-icons/si'
-import { SiReactrouter } from 'react-icons/si'
-import { FaNodeJs } from 'react-icons/fa'
-import { IoLogoFirebase } from 'react-icons/io5'
-import { FaFigma } from 'react-icons/fa'
-import { FaYarn } from 'react-icons/fa'
-import { FaNpm } from 'react-icons/fa'
-import { SiPnpm } from 'react-icons/si'
-import { SiStrapi } from 'react-icons/si'
+import { FaHtml5, FaReact, FaFigma, FaYarn, FaNpm, FaCss3Alt, FaNodeJs } from 'react-icons/fa'
+import { IoLogoJavascript, IoLogoFirebase } from 'react-icons/io5'
+import { SiTailwindcss, SiRedux, SiReactrouter, SiPnpm, SiStrapi, SiAdobephotoshop } from 'react-icons/si'
 import Container from '@/components/container'
 
 function About() {
@@ -57,11 +46,7 @@ function About() {
                             <FaYarn className='text-[#2C8EBB]' />
                             <FaNpm className='text-[#CB3837]' />
                             <SiPnpm className='text-[#F69220]' />
-                            <img
-                                className='h-[30px] w-[30px] xs:h-[32px] xs:w-[32px] sm:h-[40px] sm:w-[40px] md:h-[45xpx] md:w-[45px] lg:h-[36px] lg:w-[36px] xl:h-[40px] xl:w-[40px]'
-                                src='/assets/images/photoshop.png'
-                                alt='photoshop'
-                            />
+                            <SiAdobephotoshop className='text-[#00a4e4]' />
                         </div>
                     </div>
                 </div>
