@@ -9,5 +9,9 @@ export default function Projects() {
             console.log('Projects page unmounted')
         }
     }, [])
-    return <Container as='main'>Projects</Container>
+    return (
+        <Container className='flex items-center justify-center' as='main'>
+            <div className='text-4xl text-white'>BURADA HENÜZ BİR ŞEY YOK! AMA YAKINDA OLACAK...</div>
+        </Container>
+    )
 }
