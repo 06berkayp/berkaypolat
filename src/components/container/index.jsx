@@ -30,7 +30,7 @@ const Container = React.forwardRef(({ children, as, className, ...props }, ref) 
             exit='exit'
             ref={ref}
             className={cn(
-                'mx-auto h-[calc(100dvh-80px)] w-[90%] p-4 sm:w-[75%] md:w-[65%] lg:flex lg:w-[90%] lg:flex-row-reverse lg:justify-center lg:gap-12 xl:w-[90%] xl:gap-24',
+                'mx-auto h-[calc(100dvh-80px)] w-[90%] p-4 sm:w-[75%] md:w-[65%] lg:flex lg:w-[80%] lg:flex-row-reverse lg:justify-center lg:gap-12 xl:w-[90%] xl:gap-24',
                 className
             )}
             {...props}

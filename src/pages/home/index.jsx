@@ -6,6 +6,7 @@ import { IoLogoGithub } from 'react-icons/io'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import Container from '@/components/container'
 import { Link } from 'react-router-dom'
+import Marquee from 'react-fast-marquee'
 
 function Home() {
     return (
@@ -45,17 +46,20 @@ function Home() {
                     BERKAY
                 </h1>
 
-                <h1 className='w-full content-end text-end text-[60px] font-extrabold text-[#d6ad60] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:-mt-[20px] xl:text-[130px] xxl:text-[160px]'>
+                <h1 className='w-full content-end border-b-[1px] border-neutral-700 text-end text-[60px] font-extrabold text-[#d6ad60] xs:text-[75px] sm:text-[90px] md:text-[105px] lg:text-[120px] xl:-mt-[20px] xl:text-[130px] xxl:text-[160px]'>
                     POLAT
                 </h1>
 
-                <h1 className='absolute left-4 top-[280px] pb-[30px] text-[12px] font-bold text-[#d6ad60] xs:mt-[40px] xs:text-[16px] md:mt-[85px] lg:pt-7 lg:text-[20px] xl:mt-[90px] xl:text-[22px] xxl:pt-48 xxl:text-[30px]'>
-                    5 may 2003
-                </h1>
-                <MdKeyboardArrowDown className=' absolute top-[170px] flex w-full items-center justify-center text-[80px] text-[#fff] xxs:mt-[18px] xs:mt-[45px] xs:text-[96px] sm:mt-[68px] sm:text-[110px] md:mt-[115px] lg:mt-[200px] lg:text-[80px] xl:mt-[215px] xl:text-[96px] xxl:mt-[380px] xxl:text-[150px]' />
-                <h1 className='absolute right-4 top-[280px] pb-[30px] text-[12px] font-bold italic text-[#d6ad60] xs:mt-[40px] xs:text-[16px] md:mt-[85px] lg:pt-7 lg:text-[20px] xl:mt-[90px] xl:text-[22px] xxl:pt-48 xxl:text-[30px]'>
-                    developer.
-                </h1>
+                <Marquee speed={70} className='flex w-full items-center overflow-hidden xxs:pt-4 xxl:pt-8'>
+                    <div className='rounded-full bg-gradient-to-r from-violet-500 to-pink-500 xxs:h-2 xxs:w-2'></div>
+                    <p className='hidden bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text px-3 font-extrabold text-transparent text-white xxs:text-4xl sm:text-[40px] md:text-6xl lg:block lg:text-6xl xl:text-5xl xxl:text-6xl'>
+                        Frontend
+                    </p>
+                    <p className='bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text px-3 font-extrabold text-transparent text-white xxs:text-4xl sm:text-[40px] md:text-6xl lg:text-6xl xl:text-5xl xxl:text-6xl'>
+                        Developer
+                    </p>
+                    <div className='rounded-full bg-gradient-to-r from-violet-500 to-pink-500 xxs:h-2 xxs:w-2'></div>
+                </Marquee>
             </div>
         </Container>
     )
