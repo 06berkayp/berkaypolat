@@ -67,7 +67,7 @@ export default function OverlayMenu() {
                     initial='initial'
                     animate='animate'
                     exit='exit'
-                    className='fixed inset-0 bottom-0 left-0 right-0 z-[100] flex h-full origin-right items-center justify-center bg-black/50 p-8 backdrop-blur-xl'
+                    className='fixed inset-0 bottom-0 left-0 right-0 z-[100] flex h-full origin-right items-center justify-center bg-black/70 p-8 backdrop-blur-xl'
                 >
                     <motion.ul
                         variants={containerVars}
