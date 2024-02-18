@@ -11,7 +11,7 @@ export default function Projects() {
     }, [])
     return (
         <Container className='flex items-center justify-center' as='main'>
-            <div className='text-4xl text-white'>BURADA HENÜZ BİR ŞEY YOK! AMA YAKINDA OLACAK...</div>
+            <div className='text-4xl text-white'>BURADA HENÜZ BİR ŞEY YOK!</div>
         </Container>
     )
 }
