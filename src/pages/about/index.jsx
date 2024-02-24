@@ -1,6 +1,17 @@
-import { FaHtml5, FaReact, FaFigma, FaYarn, FaNpm, FaCss3Alt, FaNodeJs, FaMarkdown } from 'react-icons/fa'
+import {
+    FaHtml5,
+    FaReact,
+    FaFigma,
+    FaBootstrap,
+    FaSass,
+    FaYarn,
+    FaNpm,
+    FaCss3Alt,
+    FaNodeJs,
+    FaMarkdown,
+} from 'react-icons/fa'
 import { IoLogoJavascript, IoLogoFirebase } from 'react-icons/io5'
-import { SiTailwindcss, SiRedux, SiReactrouter, SiPnpm, SiStrapi, SiAdobephotoshop } from 'react-icons/si'
+import { SiTailwindcss, SiReactrouter, SiPnpm, SiStrapi, SiAdobephotoshop } from 'react-icons/si'
 import Container from '@/components/container'
 
 function About() {
@@ -36,8 +47,9 @@ function About() {
                             <FaCss3Alt className='text-[#1572B6]' />
                             <IoLogoJavascript className='text-[#F7DF1E]' />
                             <SiTailwindcss className='text-[#06B6D4]' />
+                            <FaBootstrap className='text-[#7952B3]' />
+                            <FaSass className='text-[#CC6699]' />
                             <FaReact className='text-[#61DAFB]' />
-                            <SiRedux className='text-[#764ABC]' />
                             <SiReactrouter className='text-[#CA4245]' />
                             <FaNodeJs className='text-[#339933]' />
                             <SiStrapi className='text-[#4945FF]' />
