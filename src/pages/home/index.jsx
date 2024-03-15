@@ -18,7 +18,7 @@ function Home() {
                     />
                 </div>
                 <div className='mt-4 flex h-full w-full items-center justify-center gap-3 text-white *:cursor-pointer md:pt-2 lg:pt-2 *:lg:size-[50px] xl:pt-1 *:xl:size-[50px] xxl:pt-2 *:xxl:size-[60px]'>
-                    <Link to='https://www.instagram.com/06berkayp/' target='_blank' rel='noopener noreferrer'>
+                    <Link to='https://www.instagram.com/berkayypolaat/' target='_blank' rel='noopener noreferrer'>
                         <FaInstagram className='size-[34px] rounded-lg text-[#d6ad60] transition-all hover:bg-gradient-to-r hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:p-1 hover:text-white xxs:size-[37px] xs:size-[45px] sm:size-[50px] md:size-[50px] lg:size-[45px] xxl:size-[55px]' />
                     </Link>
                     <Link to='https://twitter.com/berkaypolat06' target='_blank' rel='noopener noreferrer'>
